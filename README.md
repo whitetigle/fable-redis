@@ -1,4 +1,4 @@
-# fable-node
+# fable-redis
 
 Fable bindings for [redis js lib](http://redis.js.org/)
 
