@@ -1,0 +1,10 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Description>Fable bindings for Redis.js</Description>
+    <PackageProjectUrl>https://github.com/whitetigle/fable-redis</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/whitetigle/fable-redis/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/whitetigle/fable-redis.git</RepositoryUrl>
+    <PackageTags>node;fsharp;fable;redis</PackageTags>
+    <Authors>François Nicaise</Authors>
+  </PropertyGroup>
+</Project>
