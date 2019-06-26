@@ -2,17 +2,18 @@
   "private": true,
   "scripts": {
     "build": "fable build.fsx --run",
-    "pretest": "fable-splitter tests -o build/tests --commonjs",
+    "pretest": "rm -rf build & fable-splitter tests -o build/tests --commonjs",
     "test": "mocha build/tests -t 10000"
   },
   "dependencies": {
-    "fable-compiler": "^2.2.0-beta-015",
+    "fable-compiler": "^2.3.3",
     "fable-compiler-js": "^1.0.2",
     "fable-publish-utils": "^1.0.5",
-    "fable-splitter": "^2.1.5",
+    "fable-splitter": "^2.1.6",
     "mocha": "^6.0.2"
   },
   "devDependencies": {
+    "bluebird": "^3.5.5",
     "redis": "^2.8.0"
   }
 }

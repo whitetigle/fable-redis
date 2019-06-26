@@ -3,14 +3,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Util.fs" />
-    <Compile Include="Commands.fs" />
-    <Compile Include="Main.fs" />
+    <Compile Include="Tests.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\src\Fable.Redis.fsproj" />
   </ItemGroup>  
   <ItemGroup>
-    <PackageReference Include="Fable.Node" Version="1.0.0" />
+    <PackageReference Include="Fable.Mocha" Version="2.4.0" />    
   </ItemGroup> 
 </Project>
